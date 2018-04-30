@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals-Collector-Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+
+
+
+<body background="assets/images/backgroundimage.jpeg">
+
+
+
+    <div class="wrapper">
+
+        <header>
+            <div class="container-fluid">
+
+                <h2 id="header">Crystals-Collector-Game</h2>
+
+            </div>
+
+        </header>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-1">
+
+
+
+                    <div class="row">
+
+                        <div class="col-md-12" align="center">
+
+                            <div class="BoxIndex2" id="boxWins">
+
+                                <p> Wins: <span id=winBox> </span></p>
+                                <!--put your boxes for your wins here-->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12" align="center">
+
+                            <div class="BoxIndex2" id="boxLosses">
+                                <p> Losses: <span id=lossBox> </span></p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-6" align="center">
+
+
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="BoxIndex3" id="boxRandom">
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="BoxIndex" id="gemBox" align="center">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+
+                                <h3><button id="red"><img id="red1" src= "assets/images/redgem.jpg" alt="red gem"  width = 75 height = 50 /> </button></h3>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <h3><button id="blue"><img id="blue1" src= "assets/images/bluegem.jpg" alt="blue gem"  width = 75 height = 50 /></button></h3>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+
+                                <h3><button id="pink"><img id="pink1" src= "assets/images/pinkgem.png" alt="pink gem"  width = 75 height = 50 /> </button></h3>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <h3><button id="green"><img id="green1" src= "assets/images/greengem.jpg" alt="green gem"  width = 75 height = 50 /> </button></h3>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="BoxIndex3" id="boxTotal">
+
+                                <p> Total Score: <span id="totalBox"> </span></p>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-sm-3">
+
+                    <div class="BoxIndex">
+
+                        <p>Welcome!</p>
+
+                        <hr>
+
+                        <p>* There will be four crystals displayed as buttons on the page.</p>
+                        <p>* The player will be shown a random number at the start of the game.</p>
+                        <p>* When the player clicks on a crystal, it will add a specific amount of points to the player's total score. </p>
+                        <p>* Your game will hide this amount until the player clicks a crystal.</p>
+                        <p>* When they do click one, update the player's score counter.</p>
+                        <p>* The player wins if their total score matches the random number from the beginning of the game.</p>
+                        <p>* The player loses if their score goes above the random number.</p>
+                        <p>* The game restarts whenever the player wins or loses.</p>
+                        <p>* When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.</p>
+                        <p>* The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.</p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
